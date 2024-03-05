@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tab.css">
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .show {
+            display: block;
+            
+        }
+    </style>
+</head>
+
+<body onload="_alert()">
+    <div class="container">
+        <!-- <button class="supertab" onclick="openCar()">CARS</button> -->
+        <div class="tab " id="_tab">
+            <button class="tablinks"  onclick="openCar(event, 'Mercedes-Benzcars')">Mercedes-Benz Cars</button>
+            <button class="tablinks" onclick="openCar(event, 'AudiCars') ">Audi Cars</button>
+            <button class="tablinks" onclick="openCar(event, 'BMWcars')" >BMW cars</button>
+        </div>
+
+    </div>
+    
+        <div id="Mercedes-Benzcars" class="tabcontent">
+            <h3></h3>
+            <p id="p1" style="">London is the capital city of England.</p>
+          </div>
+          
+          <div id="AudiCars" class="tabcontent" style="">
+            <h3>INFO</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+          
+          <div id="BMWcars" class="tabcontent" style="">
+            <h3>INFO</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+        
+
+    <script>
+        function openCar() {
+            
+            var element = document.getElementById("_tab");
+            element.classList.remove("hide");
+           
+
+        }
+        
+        
+
+    </script>
+    <div id="screen"></div>
+    <script src="tab.js"></script>
+
+</body>
+
+</html>

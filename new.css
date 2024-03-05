@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.container{
+    max-width: 1640px;
+    margin:auto;
+    padding: 0 20px; 
+    
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.logo{
+    padding-left: 10%;
+    margin-right:60%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+#form{
+    margin-left: 90%;
+    width:300px;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+
+}
+.contain{
+    max-width: 1640px;
+    margin:auto;
+    padding-left: 60px; 
+    display: flex; 
+    background-color: antiquewhite;
+    padding-left: 30%;
+} 
+.menu ul{
+    list-style:none;
+    display: flex;
+    align-items: right;
+}
+.menu ul li{
+    display:block;
+text-decoration: dotted;
+margin-left: 20%;
+align-items:flex-end;
+padding-left: 30%;
+
+}
+.banner{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:10%;
+    
+    
+}
+.banner a1 a11{
+    position: absolute;
+    display: flex;
+    
+    
+    
+}
+.a11{
+    transform-box: 50px;
+}
+.new{
+    margin-left:10%;
+    margin-top: 5%;
+    padding-left: 3%;
+}
+.btwo{
+    align-items: center;
+    text-align: center;
+    color: blueviolet;
+    margin-top: 5%;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+.two{
+    background-color: bisque;
+}
+#er{
+    
+    
+}
+.three{
+    
+    display: block;
+}
+.fav{
+    display: flex;
+}
+
+.search-box {
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.search-box input {border: 0; padding: 10px 30px 10px 10px; outline: 0;}
+
+.btn-submit {
+    position: absolute;
+    right: 20px;
+    background-color: transparent;
+    border: 0;
+    top: 16px;
+    outline: 0;
+}
+
+.col-6 {
+    width: calc(50% - 10px);
+    position: relative;
+}
+
+.col-6 .img-text {
+    position: absolute;
+    font-size: 50px;
+    color: Red;
+    display: flex;
+    bottom: 20px;
+    background-color: #fff;
+    left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-6 img {
+    width: 100%;
+}
+
+.col-4 {
+    width: 33.3%;
+}
+
+.col-4 img {
+    width: 100%;
+}
+.product-block {
+    background: #F6F2EC;
+
+}
+
+.product-card {
+    width: 20%;
+    text-align: center;
+}
+
+.product-card .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

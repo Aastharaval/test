@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+
+padding: 0 10px;
+justify-content: space-between;
+background-color: beige;
+
+    
+    
+    
+
+}
+.row{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.second{
+    padding:0 10px;
+    justify-content: space-between;
+}
+
+.row2{
+    display:flex;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-left:60px;
+}

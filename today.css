@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.container{
+padding: 0 550px;
+background-color: #C7886B;
+
+
+
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    margin:0 60px;
+    justify-items: center;
+
+
+}
+.search-box{
+
+    border: 1px solid aliceblue;
+    padding: 10px 20px;
+    position:relative ;
+    width: 240px;
+    height: 34px;
+    top: 21px;
+    left: 260px;
+    border-radius: 59px;
+
+
+}
+    
+    
+    
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right:70px;
+    margin-top:20px;
+}
+#query{
+    position: absolute;
+    left: 70px;
+    background-color: transparent;
+    border: 0;
+    top: 10px;
+    outline: 0;
+    
+}
+.placeholder{
+    margin-left: 30px;
+}
+.logo{
+    width: 91px;
+
+  } 
+    
+.list{
+    padding: 10px 550px;
+    margin-bottom: 20px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.list ul li a{
+    color:black;
+}
+.contac a{
+    color:black;
+}
+.info h1{
+    font-family: "Hurricane", cursive;
+    font-size:100px;
+}
+.image{
+    position: relative; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.info{
+
+    position: absolute;
+    top:20px;
+    color: aliceblue;
+    max-width: 550px;
+    
+}
+.sub{
+    height: 40px;
+    width: 120px;
+    padding: 0 20px;
+  background-color:#C7886B;
+  border-radius: 10px;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+    margin-bottom: 40px;
+
+}
+.row2 .name{
+    font-family: "Hurricane", cursive;
+    font-size:48px;
+    color: aliceblue;
+}
+.col4{
+    position: relative;
+}
+.name{
+    position: absolute;
+    top:70%;
+    right:40%;
+    left:30%;
+}
+.product-card {
+    width: 20%;
+    text-align: center;
+}
+
+.product-card .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contain{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-bottom: 40px;
+}
+.product-info ul li{
+    list-style: none;
+}
+
+h1{
+    font-family: "Hurricane", cursive;
+    font-size:48px;
+    text-align: center;
+}
+.banner{
+    justify-content: center;
+    margin: 200px;
+
+}
+.raw{
+    display: flex;
+    
+}
+.layer{
+    position: relative;
+}
+.pic{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.layer2{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.text{
+    position: absolute;
+    top: 120px;
+    color:#C7886B;
+    text-align:center ;
+}
+.text ul li{
+    list-style: none;
+}
+.but{
+    background-color: #C7886B;
+    height: 40px;
+    width: 120px;
+    padding: 0 20px;
+    color:aliceblue;
+    
+  
+}
+
+.demo{
+    justify-content: center;
+    margin-left: 240px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.bu{
+  background-color: #C7886B;
+  height: 40px;
+    width: 120px;
+    padding: 0 20px;
+    color: aliceblue;
+    
+
+    
+}
+.sum{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.footleft{
+    text-align: center;
+   
+    width: 50%;
+}
+.footleft ul{
+    list-style: none;
+}
+.footright{
+    width: 40%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.footright ul{
+    list-style: none;
+}
+    

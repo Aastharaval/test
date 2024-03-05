@@ -1,0 +1,85 @@
+table{
+    width:100%;
+} 
+th{
+    height:30px;
+}
+#first{
+    margin-left: 20%;
+}
+#logo{
+    width:80%;
+    padding-left: 10%;
+}
+#img1{
+    padding-left:7%;
+    margin-bottom: 25px;
+    
+
+}
+#text
+{
+   margin-top: 10%; margin-bottom:10%; 
+}
+#dul{
+    margin-top:10%
+}
+#as{
+    margin-top:5%;
+}
+#ar{
+    margin-top:5%;
+    width:100%;
+    margin-right:0px;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+#button{
+    background-color:blueviolet;
+}
+.aone{
+    width:40%;
+    display:inline-flex ;
+    float: left;
+}
+#new{
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    margin-right:10%;
+}
+#fw{
+    background-color:blueviolet;
+    color: aliceblue;
+    height: 60px;
+    display: inline-block;
+    
+}
+#in{
+    display: inline-block;
+}
+.oop{
+    display: inline;
+    float:center;
+    padding-left: 5%;
+    
+}
+.a1{
+    max-width: 90%;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 5%;
+
+}
+.a3{
+    margin-left: 50%;
+    
+}
+.a2{
+    padding-right: 5%;
+    margin-top: 1%;
+}
+.a4{
+    padding-left:10%;
+}
